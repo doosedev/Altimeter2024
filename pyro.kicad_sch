@@ -82,11 +82,11 @@
         )
       )
     )
-    (symbol "Device:Q_NMOS_GDS" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:Q_NMOS_GSD" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 5.08 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "Q_NMOS_GDS" (at 5.08 -1.27 0)
+      (property "Value" "Q_NMOS_GSD" (at 5.08 -1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (at 5.08 2.54 0)
@@ -98,10 +98,10 @@
       (property "ki_keywords" "transistor NMOS N-MOS N-MOSFET" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "N-MOSFET transistor, gate/drain/source" (at 0 0 0)
+      (property "ki_description" "N-MOSFET transistor, gate/source/drain" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Q_NMOS_GDS_0_1"
+      (symbol "Q_NMOS_GSD_0_1"
         (polyline
           (pts
             (xy 0.254 0)
@@ -212,17 +212,17 @@
           (fill (type outline))
         )
       )
-      (symbol "Q_NMOS_GDS_1_1"
+      (symbol "Q_NMOS_GSD_1_1"
         (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 -5.08 90) (length 2.54)
           (name "S" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
+          (name "D" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -420,6 +420,42 @@
     (uuid ead7ef62-741b-4579-99fd-976a77e77c72)
   )
 
+  (symbol (lib_id "Device:Q_NMOS_GSD") (at 127 86.36 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 43c27651-e6e8-403d-83f8-59e591feade8)
+    (property "Reference" "Q3" (at 127 92.71 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "DMN3150L" (at 127 95.25 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 124.46 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 127 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dc1f7020-5802-4f3e-96eb-cfb970eb057c))
+    (pin "2" (uuid bb92bb9e-15c3-47b0-85b9-0f79998eaab0))
+    (pin "3" (uuid 8f899c51-0712-45d0-9b5d-80e277dc621b))
+    (instances
+      (project "av2324"
+        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/0748e7cd-0a3d-4586-8bc7-9a3e9814e06f"
+          (reference "Q3") (unit 1)
+        )
+        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/2e53005c-227f-416b-8cc3-62e815b93dbf"
+          (reference "Q2") (unit 1)
+        )
+        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/e82342dd-bc52-4a78-b9b4-ffd05f6fa11a"
+          (reference "Q4") (unit 1)
+        )
+        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/b2fd81e3-27b1-4390-8a5d-71f8e91885dc"
+          (reference "Q5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 102.87 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50ec0560-1a7b-4643-8d29-ca5e6b0b794a)
@@ -532,45 +568,6 @@
         )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/b2fd81e3-27b1-4390-8a5d-71f8e91885dc"
           (reference "R32") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Q_NMOS_GDS") (at 127 86.36 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c9e8cc97-4b31-46e7-adad-a0ad411b966a)
-    (property "Reference" "Q2" (at 127 92.71 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Q_NMOS_GDS" (at 127 95.25 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 129.54 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 127 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d40c4686-2632-4b6b-891e-3033ede37f78))
-    (pin "2" (uuid 9572d52a-09b6-4fd2-bac7-a7c8368cd5df))
-    (pin "3" (uuid 2f025fd4-2a9e-40fe-8fd0-452e58b16746))
-    (instances
-      (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "Q2") (unit 1)
-        )
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/0748e7cd-0a3d-4586-8bc7-9a3e9814e06f"
-          (reference "Q3") (unit 1)
-        )
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/2e53005c-227f-416b-8cc3-62e815b93dbf"
-          (reference "Q2") (unit 1)
-        )
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/e82342dd-bc52-4a78-b9b4-ffd05f6fa11a"
-          (reference "Q4") (unit 1)
-        )
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/b2fd81e3-27b1-4390-8a5d-71f8e91885dc"
-          (reference "Q5") (unit 1)
         )
       )
     )
