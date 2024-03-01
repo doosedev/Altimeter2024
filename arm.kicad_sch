@@ -647,7 +647,7 @@
   (symbol (lib_id "Device:C") (at 111.76 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f3377b9-4793-4d4f-9d08-c0bfc0c1e65e)
-    (property "Reference" "C35" (at 115.57 121.92 0)
+    (property "Reference" "C28" (at 115.57 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 115.57 124.46 0)
@@ -663,9 +663,6 @@
     (pin "2" (uuid 1dad13c6-e74f-439f-bd08-895ec5f48724))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "C35") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/c186b426-2300-4a0e-af51-012322fef314"
           (reference "C28") (unit 1)
         )
@@ -676,7 +673,7 @@
   (symbol (lib_id "Device:R_US") (at 171.45 101.6 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 288ece09-fdda-43d3-92d2-32fbc67b714b)
-    (property "Reference" "R21" (at 171.45 95.25 90)
+    (property "Reference" "R11" (at 171.45 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7" (at 171.45 97.79 90)
@@ -692,9 +689,6 @@
     (pin "2" (uuid aaf73a1f-ac2a-4f8c-8d5c-e7286f6de75f))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "R21") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/c186b426-2300-4a0e-af51-012322fef314"
           (reference "R11") (unit 1)
         )
@@ -705,7 +699,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 100.33 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28c82f8e-9fee-4f07-9219-ffa29182103d)
-    (property "Reference" "SW2" (at 100.33 68.58 0)
+    (property "Reference" "SW3" (at 100.33 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ARM" (at 100.33 71.12 0)
@@ -721,9 +715,6 @@
     (pin "2" (uuid 83ccd0a9-290c-4580-bf37-bfd51e32acec))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "SW2") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/c186b426-2300-4a0e-af51-012322fef314"
           (reference "SW3") (unit 1)
         )
@@ -734,7 +725,7 @@
   (symbol (lib_id "Device:R_US") (at 99.06 123.19 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30b1325d-c3f9-43aa-a82b-4bc2979d985f)
-    (property "Reference" "R19" (at 101.6 121.92 0)
+    (property "Reference" "R14" (at 101.6 121.92 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 101.6 124.46 0)
@@ -750,9 +741,6 @@
     (pin "2" (uuid 62690776-a5f1-4986-8b96-3e1e341c07c5))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "R19") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/c186b426-2300-4a0e-af51-012322fef314"
           (reference "R14") (unit 1)
         )
@@ -763,7 +751,7 @@
   (symbol (lib_id "erlib:UCS3205") (at 128.27 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61ec179c-a82a-4acc-be7d-93729722017d)
-    (property "Reference" "U8" (at 128.27 93.98 0)
+    (property "Reference" "U4" (at 128.27 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "UCS3205" (at 128.27 96.52 0)
@@ -798,9 +786,6 @@
     (pin "9" (uuid 242c4a43-570f-4b39-b422-72489e138e25))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "U8") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/c186b426-2300-4a0e-af51-012322fef314"
           (reference "U4") (unit 1)
         )
@@ -811,7 +796,7 @@
   (symbol (lib_id "Device:C") (at 165.1 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75dfacc8-a696-42c4-b8ef-f6c1b7b71ffe)
-    (property "Reference" "C34" (at 168.91 107.95 0)
+    (property "Reference" "C27" (at 168.91 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 168.91 110.49 0)
@@ -827,9 +812,6 @@
     (pin "2" (uuid f716a67e-a9ba-456b-afb9-52d0e798818d))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "C34") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/c186b426-2300-4a0e-af51-012322fef314"
           (reference "C27") (unit 1)
         )
@@ -840,7 +822,7 @@
   (symbol (lib_id "Device:R_US") (at 128.27 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d17ced1-4046-42be-907d-437d09053dbf)
-    (property "Reference" "R32" (at 128.27 82.55 90)
+    (property "Reference" "R10" (at 128.27 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 128.27 85.09 90)
@@ -856,9 +838,6 @@
     (pin "2" (uuid cb1212f4-8f86-414e-a76d-f44fefbbea5b))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "R32") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/c186b426-2300-4a0e-af51-012322fef314"
           (reference "R10") (unit 1)
         )
@@ -869,7 +848,7 @@
   (symbol (lib_id "Device:C") (at 88.9 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb3312d2-2a38-4ea7-bcfe-66fa6d0871de)
-    (property "Reference" "C33" (at 92.71 107.95 0)
+    (property "Reference" "C26" (at 92.71 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 92.71 110.49 0)
@@ -885,9 +864,6 @@
     (pin "2" (uuid f98e2e02-92c6-41a3-9e7f-a94c4e5632b1))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "C33") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/c186b426-2300-4a0e-af51-012322fef314"
           (reference "C26") (unit 1)
         )
@@ -898,7 +874,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 85.09 63.5 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfa5b93e-263a-456f-a045-5e2ccddb2fb2)
-    (property "Reference" "J12" (at 85.09 57.15 0)
+    (property "Reference" "J13" (at 85.09 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ARM" (at 85.09 59.69 0)
@@ -914,9 +890,6 @@
     (pin "2" (uuid 21ad6be9-eaf7-48a2-85e6-e75d3da10688))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/32ae0883-da14-4189-aed1-7d6ebb961713"
-          (reference "J12") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/c186b426-2300-4a0e-af51-012322fef314"
           (reference "J13") (unit 1)
         )
@@ -927,7 +900,7 @@
   (symbol (lib_id "Device:R_US") (at 105.41 109.22 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db714218-2c12-4ba8-8dce-2121e2632a61)
-    (property "Reference" "R20" (at 105.41 104.14 90)
+    (property "Reference" "R12" (at 105.41 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 105.41 106.68 90)
@@ -943,9 +916,6 @@
     (pin "2" (uuid 259c39de-4603-483b-9757-a6e21a33094c))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "R20") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/c186b426-2300-4a0e-af51-012322fef314"
           (reference "R12") (unit 1)
         )
@@ -956,7 +926,7 @@
   (symbol (lib_id "Device:R_US") (at 153.67 110.49 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0aee82b-487e-41bd-b56a-a2b4f0291f45)
-    (property "Reference" "R21" (at 156.21 109.22 0)
+    (property "Reference" "R13" (at 156.21 109.22 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 156.21 111.76 0)
@@ -972,9 +942,6 @@
     (pin "2" (uuid d2952a70-4796-4a30-b787-b5026c222672))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "R21") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/c186b426-2300-4a0e-af51-012322fef314"
           (reference "R13") (unit 1)
         )

@@ -459,7 +459,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 102.87 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50ec0560-1a7b-4643-8d29-ca5e6b0b794a)
-    (property "Reference" "J14" (at 102.87 80.01 0)
+    (property "Reference" "J15" (at 102.87 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ON" (at 102.87 82.55 0)
@@ -475,9 +475,6 @@
     (pin "2" (uuid f151af53-4a5f-48ef-a71b-c1c4ecbced3c))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "J14") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/0748e7cd-0a3d-4586-8bc7-9a3e9814e06f"
           (reference "J15") (unit 1)
         )
@@ -497,7 +494,7 @@
   (symbol (lib_id "Device:R_US") (at 110.49 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56040dfa-c26a-4c1d-ac40-9cfb743e9dc2)
-    (property "Reference" "R34" (at 113.03 93.98 0)
+    (property "Reference" "R24" (at 113.03 93.98 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "86.6k" (at 113.03 96.52 0)
@@ -513,12 +510,6 @@
     (pin "2" (uuid 18bcf29e-f6b6-444f-9aff-4098a7e77510))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "R34") (unit 1)
-        )
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/32ae0883-da14-4189-aed1-7d6ebb961713"
-          (reference "R34") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/0748e7cd-0a3d-4586-8bc7-9a3e9814e06f"
           (reference "R24") (unit 1)
         )
@@ -554,9 +545,6 @@
     (pin "2" (uuid 3e24125b-c0cf-4c17-9902-e4fc5ec1a62f))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "R23") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/0748e7cd-0a3d-4586-8bc7-9a3e9814e06f"
           (reference "R23") (unit 1)
         )
@@ -576,7 +564,7 @@
   (symbol (lib_id "Device:R_US") (at 110.49 107.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa59c352-7441-47fc-b459-5376553a756f)
-    (property "Reference" "R35" (at 113.03 106.68 0)
+    (property "Reference" "R25" (at 113.03 106.68 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "30.1k" (at 113.03 109.22 0)
@@ -592,12 +580,6 @@
     (pin "2" (uuid 8571ae83-6e13-476d-8ea8-fb8bf6551181))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "R35") (unit 1)
-        )
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/32ae0883-da14-4189-aed1-7d6ebb961713"
-          (reference "R35") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/0748e7cd-0a3d-4586-8bc7-9a3e9814e06f"
           (reference "R25") (unit 1)
         )
@@ -617,7 +599,7 @@
   (symbol (lib_id "Device:R_US") (at 127 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fda94aa0-92dc-483f-8afc-9e034d31e0ab)
-    (property "Reference" "R12" (at 129.54 73.66 0)
+    (property "Reference" "R22" (at 129.54 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 129.54 76.2 0)
@@ -633,9 +615,6 @@
     (pin "2" (uuid 017d1438-02d9-41fd-a279-06502e9b4875))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "R12") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/0748e7cd-0a3d-4586-8bc7-9a3e9814e06f"
           (reference "R22") (unit 1)
         )

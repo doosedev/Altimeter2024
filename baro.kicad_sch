@@ -385,9 +385,6 @@
     (pin "9" (uuid 71a90c21-b49f-4bec-a405-5b9272ce3b05))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "U6") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/3dc22ab4-b01a-4be5-83a7-724a49c8c7a4"
           (reference "U6") (unit 1)
         )
@@ -398,7 +395,7 @@
   (symbol (lib_id "Device:C") (at 165.1 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c85cc825-2245-4c20-894a-c53238688f16)
-    (property "Reference" "C26" (at 168.91 87.63 0)
+    (property "Reference" "C33" (at 168.91 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 168.91 90.17 0)
@@ -414,9 +411,6 @@
     (pin "2" (uuid d4bdef31-d925-4e08-b5ae-b50eb139ec18))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "C26") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/3dc22ab4-b01a-4be5-83a7-724a49c8c7a4"
           (reference "C33") (unit 1)
         )
@@ -427,10 +421,10 @@
   (symbol (lib_id "Device:R_US") (at 114.3 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8b76d42-66de-48f9-840a-c4ea03650c72)
-    (property "Reference" "R9" (at 116.84 76.2 0)
+    (property "Reference" "R16" (at 116.84 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "30k" (at 116.84 78.74 0)
+    (property "Value" "10k" (at 116.84 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 115.316 77.724 90)
@@ -443,9 +437,6 @@
     (pin "2" (uuid 501c4d57-8188-485a-8258-71ac83eca381))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "R9") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/3dc22ab4-b01a-4be5-83a7-724a49c8c7a4"
           (reference "R16") (unit 1)
         )
@@ -456,7 +447,7 @@
   (symbol (lib_id "Device:C") (at 152.4 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff98e5df-7488-4ae1-9fe1-9e2190d7e606)
-    (property "Reference" "C25" (at 156.21 87.63 0)
+    (property "Reference" "C32" (at 156.21 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 156.21 90.17 0)
@@ -472,9 +463,6 @@
     (pin "2" (uuid ceb203a2-b639-4ccc-9eae-9b9c6692f076))
     (instances
       (project "av2324"
-        (path "/f5bfae7e-37ef-453c-b315-6458aa70054f"
-          (reference "C25") (unit 1)
-        )
         (path "/f5bfae7e-37ef-453c-b315-6458aa70054f/3dc22ab4-b01a-4be5-83a7-724a49c8c7a4"
           (reference "C32") (unit 1)
         )
